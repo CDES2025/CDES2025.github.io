@@ -1,2 +1,2 @@
 # CDES2025.github.io
-CDES 3602 Project Repository
+CDES 3602 Projects

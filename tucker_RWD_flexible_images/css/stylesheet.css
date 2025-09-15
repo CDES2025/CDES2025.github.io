@@ -1,0 +1,82 @@
+/*global-------------------------*/
+
+header{
+    width: 100%; /*1440px*/
+    height: auto;
+}
+
+main{
+    width: 100%; /*1440px*/
+    height: auto;
+    margin: 0px auto;
+    background: rgb(181, 181, 181);
+}
+
+/*bg colors----------------------*/
+
+.yellow-bg {
+    background-color: #F3DE41;
+}
+
+.blue-bg {
+    background-color: #5AB7F9;
+}
+
+.pink-bg {
+    background-color: #FFA8D8;
+}
+
+.white-bg{
+    background-color: #FFFFFF;
+}
+
+/*columns------------------------*/
+
+.nav-header {
+    height: 100px;
+    width: 100%; /*1440px*/
+}
+
+.nav-header-content {
+    float: left;
+    margin-top: 20px;
+    margin-left: 3.47222222222%; /*50px*/
+    height: 60px;
+    width: 60px;
+    border-radius: 100px;
+}
+
+.row {
+    width: 100%;
+    overflow: hidden;
+}
+
+.col-full {
+    float: left;
+    height: 500px;
+    width: 100%; /*1440px*/
+}
+
+.col-1-third {
+    float: left;
+    width: 33.3333333333%; /*480px*/
+    height: 480px;
+}
+
+/*media-------------------------*/
+
+img, iframe {
+    max-width: 100%;
+}
+
+.bath{
+    background-image: url(../images/bath.jpeg);
+    background-position: left center;
+    background-size: cover;
+}
+
+.pattern{
+    background-image: url(../images/duck_profile.png);
+    background-size: 100px 100px;
+    background-position: 50% 50%;
+}

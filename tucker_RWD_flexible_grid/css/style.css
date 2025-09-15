@@ -1,0 +1,90 @@
+/*Global-------------------------------*/
+
+main{
+    width: 100%; /*1440px*/
+    height: auto;
+    margin: 0px auto;
+    background: #FBFBFB;
+}
+
+/*Color-------------------------------*/
+/*background color----------*/
+.orange-bg{
+    background-color: #E97C00;
+}
+
+.green-bg{
+    background-color: #83920F;
+}
+
+.black-bg{
+    background-color: #2F2C3D;
+}
+
+.red-bg{
+    background-color: #B93A04;
+}
+
+/*Page parts-------------------------------*/
+
+.row{
+    width: 100%; /*1440px*/ 
+    overflow: hidden;
+}
+
+.row-padding{
+    width: 100%;
+    overflow: hidden;
+    padding: 2.77777777778%; /*40px*/ 
+}
+
+.auto{
+    width: auto;
+}
+
+.h-114{
+    height: 114px;
+}
+
+/*Columns----------------------*/
+
+.row-top{
+    width: 1440px;
+    height: 114px;
+}
+
+.row-content{
+    float: right;
+    width: 242px;
+    height: 66px;
+    margin-top: 24px;
+    margin-right: 3.47222222222%; /*50px*/ 
+}
+
+.col-1-third{
+    float: left;
+    height: 480px;
+    width: 33.3333333333%; /*480px*/ 
+}
+.col-2-third{
+    float: left;
+    height: 480px;
+    width: 66.6666666667%; /*960px*/ 
+}
+
+.col-1-quarter{
+    float: left;
+    height: 360px;
+    width: 25%; /*360px*/
+}
+.col-2-quarter{
+    float: left;
+    height: 360px;
+    width: 50%; /*720px*/
+}
+
+.col-1-fith{
+    float: left;
+    height: 679px;
+    width: 20%; /*288px*/
+}

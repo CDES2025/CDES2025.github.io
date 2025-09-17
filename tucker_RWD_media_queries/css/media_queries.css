@@ -1,0 +1,88 @@
+@media screen and (max-width: 1024px) {
+
+     .home-hero{
+    height: 450px;
+}
+
+    .watch{
+    background-image: linear-gradient(to bottom, rgba(255, 64, 87, 60%), rgba(255, 64, 87, 60%)), url(../img/watch.jpeg);
+    background-position: 75% top;
+    background-size: cover;
+    }
+
+    .headline-xl{
+    font-family: Koulen, Arial, Helvetica, sans-serif;
+    font-size: 5em; /*96px*/
+    font-weight: 100;
+    line-height: 1;
+    padding-top: 20.8333333333%; /*300px*/
+    padding-left: 2.36111111111%; /*34px*/ 
+}
+
+
+
+}
+
+@media screen and (max-width: 900px) {
+
+    .home-hero{
+    height: 400px;
+}
+
+    .headline-xl{
+    font-family: Koulen, Arial, Helvetica, sans-serif;
+    font-size: 4.5em; /*96px*/
+    font-weight: 100;
+    line-height: 1;
+    padding-top: 20.8333333333%; /*300px*/
+    padding-left: 2.36111111111%; /*34px*/ 
+}
+
+    .headline-large{
+    font-family: Koulen, Arial, Helvetica, sans-serif;
+    font-size: 2em; /*48px*/
+    font-weight: 100;
+    line-height: 1;
+    padding: 5.55555555556%; /*40px*/
+}
+
+    .button-regular{
+    font-family: Roboto, Arial, Arial, Helvetica, sans-serif;
+    font-size: 1em; /*15px*/
+    font-weight: 100;
+    line-height: 1;
+    color: #1E1E1E;
+    background-color: #F8F8F8;
+    border: 0px;
+    border-radius: 100px;
+    padding: 19px 30px;
+    margin-left: 6.52777777778%; /*47px*/
+}
+
+}
+
+@media screen and (max-width: 600px) {
+
+        .home-hero{
+    height: 300px;
+}
+
+    .headline-xl{
+    font-family: Koulen, Arial, Helvetica, sans-serif;
+    font-size: 3.5em; /*96px*/
+    font-weight: 100;
+    line-height: 1;
+    padding-top: 20.8333333333%; /*300px*/
+    padding-left: 2.36111111111%; /*34px*/ 
+}
+
+    .headline-large{
+    font-family: Koulen, Arial, Helvetica, sans-serif;
+    font-size: 1.5em; /*48px*/
+    font-weight: 100;
+    line-height: 1;
+    padding: 5.55555555556%; /*40px*/
+}
+
+
+}

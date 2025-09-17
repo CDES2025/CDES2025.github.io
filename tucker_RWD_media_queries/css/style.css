@@ -1,0 +1,169 @@
+/*------global------------------------*/
+main{
+    width: 100%; /*1440px*/
+    height: auto;
+    margin: 0px auto;
+}
+
+body{
+    width: 100%; /*1440px*/
+    height: auto;
+    margin: 0px auto;
+    background-color: #F8F8F8;
+}
+
+.row{
+    width: 100%; /*1440px*/
+}
+
+/* sections------------------------*/
+
+/*---header---------*/
+
+.navigation{
+    width: 100%; /*1440px*/
+    height: 150px;
+    background-color: #F8F8F8;
+    overflow: hidden;
+}
+
+.nav-content{
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-left: 0.69444444444%; /*10px*/
+    margin-top: 10px;
+}
+
+/*---home hero---------*/
+
+.home-hero{
+    width: 100%; /*1440px*/
+    height: 500px;
+}
+
+/*---columns---------*/
+
+.col-1-half{
+    width: 50%; /*720px*/
+    overflow: hidden;
+    float: left;
+}
+
+.col-full{
+    width: 100%; /*1440px*/
+}
+
+/*---column height---------*/
+
+.h-350{
+    height: 350px;
+}
+.h-380{
+    height: 380px;
+}
+
+/*---column padding---------*/
+
+.padding-bottom{
+    padding-bottom: 20.8333333333%; /*150px*/
+}
+
+/* color------------------------*/
+/* bg colors---------*/
+
+.salmon-bg{
+    background-color: #ff4057;
+}
+
+.white-bg{
+    background-color: #F8F8F8;
+}
+
+/* typography------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-size: 100%;
+}
+
+/* typeface colors--------*/
+
+.white{
+    color: #F8F8F8;
+}
+
+.black{
+    color: #1E1E1E;
+}
+
+
+/* headline styles---------*/
+
+.headline-xl{
+    font-family: Koulen, Arial, Helvetica, sans-serif;
+    font-size: 96px;
+    font-weight: 100;
+    line-height: 1;
+    padding-top: 16.25%; /*234px*/
+    padding-left: 2.36111111111%; /*34px*/ 
+}
+
+.headline-large{
+    font-family: Koulen, Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    font-weight: 100;
+    line-height: 1;
+    padding: 5.55555555556%; /*40px*/
+}
+
+/* body styles---------*/
+
+.body-regular{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 1.5;
+    padding: 0px 6.52777777778%; /*47px*/
+    padding-bottom: 5.55555555556%; /*40px*/
+}
+
+/* button---------*/
+
+.button-regular:hover{
+    color: #ff4057;
+}
+
+.button-regular{
+    font-family: Roboto, Arial, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 1;
+    color: #1E1E1E;
+    background-color: #F8F8F8;
+    border: 0px;
+    border-radius: 100px;
+    padding: 19px 30px;
+    margin-left: 6.52777777778%; /*47px*/
+}
+
+/*images---------------*/
+
+.img, iframe{
+    max-width: 100%;
+}
+
+.runners{
+    background-image: url(../img/runners.jpeg);
+    background-position: top left;
+    background-size: cover;
+}
+
+.watch{
+    background-image: linear-gradient(to bottom, rgba(255, 64, 87, 60%), rgba(255, 64, 87, 60%)), url(../img/watch.jpeg);
+    background-position: center center;
+    background-size: cover;
+}
